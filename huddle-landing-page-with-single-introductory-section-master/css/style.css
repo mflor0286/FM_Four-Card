@@ -108,7 +108,7 @@ h1 {
     color: #e81ae8;
 }
 
-@media (max-width: 1024px)  {
+@media (max-width: 800px)  {
 
     html {
         min-height: 100vh;
