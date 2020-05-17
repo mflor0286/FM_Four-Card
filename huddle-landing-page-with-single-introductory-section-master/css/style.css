@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    min-height: 100vh;
+    background: url(../images/bg-desktop.svg) no-repeat hsl(257, 40%, 49%);
+    background-size: cover;
+ }
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    display: block;
+    clear: both;
+    margin: 50px 0 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    padding: 80px 0 0;
+    margin-bottom: 20px;
+}
+
+.mainimg {
+    width: 55%;
+    box-sizing: border-box;
+}
+
+.mainimg img {
+    width: 100%;
+}
+
+.maintext {
+    width: 45%;
+    padding: 20px 0 0 60px;
+    font-size: 18px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.maintext p {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.attribution {
+    width: 100%;
+    clear: both;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .attribution a {
+    color: #f9b578;
+  }
+
+  button {
+      padding: 15px 65px;
+      background: #fff;
+      border: none;
+      border-radius: 30px;
+      color: hsl(257, 40%, 49%);
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.1rem;
+      -webkit-box-shadow: 0px 5px 15px 0px rgba(72,62,99,1);
+      -moz-box-shadow: 0px 5px 15px 0px rgba(72,62,99,1);
+      box-shadow: 0px 5px 15px 0px rgba(72,62,99,1);
+  }
+
+  .socialicons {
+      float: right;
+  }
+
+  .socialicons a:link, .socialicons a:visited  {
+      color: #fff;
+      transition: all 0.5s 0s ease;
+      border-radius: 50%;
+      border: solid 1px #fff;
+      text-align: center;
+      height: 40px;
+      width: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      margin: 0 0 0 10px;
+  }
+
+  .socialicons a:hover, .socialicons a:active  {
+    color: #e81ae8;
+}
+
+@media (max-width: 1024px)  {
+
+    html {
+        min-height: 100vh;
+        background: url(../images/bg-mobile.svg) no-repeat hsl(257, 40%, 49%);
+        background-size: 100% auto;
+     }
+
+    .mainimg {
+        width: 100%;
+    }
+        
+    .maintext {
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .socialicons {
+        float: none;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50%;
+    }
+}
