@@ -108,6 +108,10 @@ h1 {
     color: #e81ae8;
 }
 
+.sr-only {
+    display: none;
+}
+
 @media (max-width: 1024px) {
 
     html {
