@@ -1,0 +1,104 @@
+/* ---------- NAV ---------- */
+
+
+
+/* ---------- FIRST SECTION ---------- */
+
+.img {
+    width: 100%;
+}
+
+.maintext {
+    padding-top: 5.75rem;
+}
+
+.btn-primary {
+    background: var(--bblue);
+    font-family: var(--htext);
+    font-weight: 600;
+    text-align: center;
+    margin-left: 1rem;
+    font-size: .75rem;
+    padding: .6rem 2rem;
+}
+
+.form-inline {
+    margin-top: 2rem;
+}
+.form-inline .form-control {
+    font-family: var(--htext);
+    font-weight: 600;
+    color: var(--gray);
+    font-size: .75rem;
+    padding: 1.2rem 1rem;
+    border: solid 1px var(--desatblue);
+    width: 320px;
+}
+
+/* ---------- SECOND SECTION ---------- */
+
+
+.second {
+    background: #f8f8fe;
+    width: 100%;
+    background-size: 100% auto;
+    margin: 0;
+    padding: 0 0 5rem;
+    font-size: 16px;
+}
+
+.maintext2 {
+    width: 75%;
+    margin-top: 2rem;
+}
+
+a:link.fylolink, a:visited.fylolink {
+    color: var(--cyan);
+    border-bottom: solid 1px var(--cyan);
+    padding: .5rem;
+}
+
+
+a:hover.fylolink, a:active.fylolink {
+    text-decoration: none;
+}
+
+.fylolink i {
+    background: var(--cyan);
+    color: #fff;
+    font-size: .4rem;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.fylocard {
+    background: #fff;
+}
+
+/* ---------- THIRD SECTION ---------- */
+
+.third {
+    background: var(--desatblue);
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background: var(--darkblue);
+    margin: 0;
+    padding: 3rem 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

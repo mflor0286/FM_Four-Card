@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap');
+
+:root {
+    --darkblue: hsl(243, 87%, 12%);
+    --desatblue: hsl(238, 22%, 44%);
+    --bblue: hsl(224, 93%, 58%);
+    --cyan: hsl(170, 45%, 43%);
+    --grayblue: hsl(240, 75%, 98%);
+    --gray: hsl(0, 0%, 75%);
+    --htext: 'Raleway', sans-serif;
+}
+
+/* ---------- RESET ---------- */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li
+ {
+  margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+/* ---------- MOBILE FIRST ---------- */
+
+/* ---------- GENERAL ---------- */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    color: var(--darkblue);
+}
+
+h2 {
+    font-family: var(--htext);
+    font-size: 2rem;
+    color: var(--darkblue);
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-family: var(--htext);
+    font-size: 1.5rem;
+    color: var(--darkblue);
+    font-weight: 700;
+    text-align: center;
+}
+
+h4 {
+    font-family: var(--htext);
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 2rem;
+}
+
+.container {
+    width: 85%;
+    max-width: 750px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ---------- NAV ---------- */
+
+.navflex {
+    margin: 3rem auto 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    max-width: 750px;
+}
+
+nav ul {
+    list-style: none;
+    font-family: var(--htext);
+    text-align: right;
+    display: inline-flex;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 .8rem;    
+}
+
+.navlogo {
+    width: 30%;
+}
+
+.navlogo img {
+    width: 100%;
+}
+
+/* ---------- FIRST SECTION ---------- */
+
+.maintext {
+    width: 100%;
+    order: 2;
+    text-align: center;
+}
+
+.maintext p {
+    margin: 2rem 0;
+}
+
+.mainimg {
+    width: 100%;
+    order: 1;
+    margin-bottom: 2rem;
+}
+
+.mainimg img {
+    width: 100%;
+}
+
+.btnfylo {
+    background: var(--bblue);
+    font-family: var(--htext);
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: .8rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-input {
+    border: solid 1px var(--darkblue);
+    font-family: var(--htext);
+    color: var(--gray);
+    font-weight: 600;
+    font-size: .8rem;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: .5rem;
+}
+
+/* ---------- SECOND SECTION ---------- */
+
+img.bgcurve {
+    width: 100%;
+    margin: 5rem 0 -5px;
+    padding: 0;
+}
+
+.second {
+    background: #f8f8fe;
+    width: 100%;
+    background-size: 100% auto;
+    margin: 0;
+    padding: 5rem 0 5rem;
+    font-size: 16px;
+}
+
+.maintext-2 {
+    width: 100%;
+    order: 2;
+    text-align: center;
+}
+
+.maintext-2 p {
+    margin: 2rem 0;
+}
+
+.mainimg-2 {
+    width: 100%;
+    order: 1;
+    margin-bottom: 4rem;
+}
+
+.mainimg-2 img {
+    width: 100%;
+}
+
+a:link.fylolink, a:visited.fylolink {
+    color: var(--cyan);
+    border-bottom: solid 1px var(--cyan);
+    padding: .5rem;
+    text-decoration: none;
+}
+
+
+a:hover.fylolink, a:active.fylolink {
+    color: var(--bblue);
+}
+
+.fylocard {
+    margin: 3rem 0 0;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(240,239,244,1);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(240,239,244,1);
+    box-shadow: 0px 0px 20px 10px rgba(240,239,244,1);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.quote {
+    float: left;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 40px;
+    float: left;
+    margin-right: 1rem;
+}
+
+.profile-info {
+    font-size: .7rem;
+}
+
+/* ---------- THIRD SECTION ---------- */
+
+.third {
+    background: var(--desatblue);
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.fyloform-2 button.btnfylo, .fyloform-2 input  {
+    width: 70%;
+}
+
+.third p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background: var(--darkblue);
+    margin: 0;
+    padding: 3rem 0;
+    color: #fff;
+}
+
+.fylologo-footer {
+    filter: brightness(0) invert(1);
+    margin-bottom: 2rem;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer ul li {
+    margin: .3rem 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.about-us {
+    width: 100%;
+}
+
+.contact-us {
+    width: 100%;
+}
+
+.socialicons {
+    width: 100%;
+    text-align: center;
+}
+
+.socialicons a:link, .socialicons a:visited  {
+    color: #fff;
+    transition: all 0.5s 0s ease;
+    border-radius: 50%;
+    border: solid 1px #fff;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+}
+
+.socialicons a:hover, .socialicons a:active  {
+  color: #e81ae8;
+}
+
+/* ---------- DESKTOP ---------- */
+@media (min-width: 1100px)  {
+
+.container {
+    width: 85%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navflex {
+    max-width: 1280px;
+}
+
+/* ---------- SECTION 1 ---------- */
+.maintext {
+    width: 50%;
+    order: 1;
+    text-align: left;
+}
+
+.maintext p {
+    margin: 2rem 0;
+}
+
+.mainimg {
+    width: 50%;
+    order: 2;
+    margin-bottom: 2rem;
+}
+
+img.fylologo {
+    width: auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+h3 {
+    font-size: 2.3rem;
+    text-align: left;
+}
+
+h4 {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.btnfylo {
+    display: inline-block;
+    width: 30%;
+}
+
+.form-input {
+    display: inline-block;
+    width: 50%;
+    margin-right: 1rem;
+}
+
+.maintext-2 {
+    width: 60%;
+    order: 1;
+    text-align: left;
+}
+
+p.main2 {
+    margin: 2rem 0;
+    width: 70%;
+}
+
+.mainimg-2 {
+    width: 40%;
+    order: 2;
+    margin-bottom: 2rem;
+}
+
+.fylocard {
+    font-size: .8rem;
+    line-height: 1.8;
+    width: 40%;
+}
+
+.third-text {
+    text-align: left;
+    width: 60%;
+}
+
+
+.third-text p {
+    width: 80%;
+    line-height: 1.5;;
+}
+
+.third-form {
+    width: 40%;
+}
+
+.fyloform-2 input  {
+    width: 100%;
+}
+
+.fyloform-2 button.btnfylo  {
+    width: 40%;
+    margin-left: 0;
+    float: left;
+    
+}
+
+.contact {
+    width: 40%;
+}
+
+.about-us {
+    width: 20%;
+}
+
+.contact-us {
+    width: 20%;
+}
+
+.socialicons {
+    width: 20%;
+    text-align: left;
+}
+
+
+}
